@@ -1,6 +1,6 @@
 # REST Http Client
 
-RESTme (Restme) is a collectino of useful utility tools implemented in .NET Core aiming to increase productivity and keep code simplicity. Currently it includes: RESTful HTTP Client, Azure Storage Client, Redis Cache Client.
+Simplified Azure Storage Client in .NET Core is a collectino of useful utility tools implemented in .NET Core aiming to increase productivity and keep code simplicity. Currently it includes: RESTful HTTP Client, Azure Storage Client, Redis Cache Client.
 
 All tools are wrapped into single class **Restme()** to keep everything simple, the class will automatically identify whether it's used as HTTP Client, Azure Storage Client or Redis Cache Client.
 
