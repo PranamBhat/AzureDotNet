@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Restme.Utils (RESTme) is the common library for Restme</Description>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Pranam.Restme.Utils</AssemblyName>
+    <PackageTags>RESTme</PackageTags>
+    <RepositoryUrl>https://github.com/PranamBhat/AzureDotNet</RepositoryUrl>
+    <DebugType Condition="'$(OS)' != 'Windows_NT'">portable</DebugType>
+    <VersionPrefix>2.0.2</VersionPrefix>
+    <Authors>Pranam Bhat</Authors>
+    <Owners>Pranam Bhat</Owners>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack.NetCore" Version="1.5.0.1" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.7.0" />
+    <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.1">
+    </PackageReference>
+  </ItemGroup>
+</Project>

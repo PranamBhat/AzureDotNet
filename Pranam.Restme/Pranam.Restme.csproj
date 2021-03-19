@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <Description>RESTme (Restme) is a set of useful toolkits, including RESTful HTTP client, Azure Blob Storage
+            Client, Redis Client as well as many Convertors &amp; Extensions implemented in .NET Core
+        </Description>
+        <VersionPrefix>2.0.2</VersionPrefix>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <AssemblyName>Pranam.Restme</AssemblyName>
+        <PackageTags>HTTP;REST;RESTful-Client;AzureBlob-Client;Redis;RedisClient;AzureStorage;.Net-Core</PackageTags>
+        <RepositoryUrl>https://github.com/PranamBhat/AzureDotNet</RepositoryUrl>
+        <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+        <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+        <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+        <DebugType Condition="'$(OS)' != 'Windows_NT'">portable</DebugType>
+        <Authors>Pranam Bhat</Authors>
+        <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="StackExchange.Redis" Version="2.2.4" />
+        <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Pranam.Restme.Utils\Pranam.Restme.Utils.csproj" />
+    </ItemGroup>
+</Project>
